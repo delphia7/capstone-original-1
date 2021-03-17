@@ -1,0 +1,32 @@
+.video-wrapper {
+      background-image: url(../../static/assets/images/background/thebraid.jpg);
+    //  padding: 100px;
+      height: 650px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+.video-wrapper > .top-heading1 {
+      background-color:  whitesmoke;
+      display: flex;
+      justify-content: center;
+      margin-left: 170px;
+      margin-right: 170px;
+      padding: 20px;
+      width: 300px;
+      margin-left: 40vw;
+}
+
+.top-heading1 {
+      text-align: center;
+     // background: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      text-shadow: 1px 1px 6px rgba(0,0,0,.3), 3px 3px 0 #eeb21a;
+      //display: inline-block;
+      padding: 3rem;
+      
+}

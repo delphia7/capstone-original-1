@@ -1,0 +1,25 @@
+.squares-wrapper {
+      height: 600px;
+      margin: opx;
+      background-color: #11122b;
+      color: #cbcbcb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+}
+.squares-wrapper > .left-column {
+      position: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      zoom: 3.5;
+}
+.squares-wrapper > .right-column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 800px;
+     font-size: 1.9rem;
+
+}

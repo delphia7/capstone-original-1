@@ -1,0 +1,92 @@
+.header {
+      display: grid;
+      justify-content: center;
+      grid-row: header-s/header-e;
+      grid-column: 1/-1;
+     // grid-column: s/e;
+      
+      line-height: 45px;
+      font-size: 20px;
+      text-shadow: 1px 1px 6px rgba(0,0,0,.3), 3px 3px 0 #eeb21a;
+      font-family: Blackriver,sans-serif;
+}
+
+.navbar {
+      display: flex;
+      grid-row: navbar-s/navbar-e;
+      grid-column: 1/-1;
+      //grid-column: s/e;
+      background-color: #ececec; 
+      justify-content: space-between;
+      align-items: center;   
+}
+.navbar > .left-side > .banner-image img {
+      grid-row: left-side-s/left-side-e;
+      display: grid;
+      width: 230px;
+      height: 260px;
+}
+
+.links-wrapper {
+      height: 22px;
+      width: 750px;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+      text-transform: uppercase;
+      align-items: center;
+      transition: 1s;
+      font-size: 0.9rem;
+      
+      padding: 20px;
+
+      a {
+            font-family: "Ubuntu Condensed", sans-serif;
+            color: black;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                  color: #eeb21a;
+                 // border-bottom: 2px solid black;
+                  letter-spacing: 2px;
+            }
+            
+      }   
+
+}
+.links-wrapper > .nav-link {
+      width: 90px;
+      text-align: center;
+}
+
+.navbar > .right-side > .banner-image img {
+      //grid-row: right-side-s/right-side-e;
+      display: flex;
+      width: 240px;
+      height: 260px;
+      justify-content: right;
+     // transform: translateY(-8%);
+}
+
+.headerhistory {
+      grid-row: headerhistory-s/headerhistory-e;
+      grid-column: 1/-1;
+      display: grid;
+      justify-items: end;
+      grid-template-rows: 1fr;
+      //grid-template-columns: [img-s] 1fr [img-e links-s] 1fr [links-e];
+  
+      &__links {
+          grid-column: links-s/links-e;
+          grid-row: 1/-1;
+      }
+}
+
+.navbarhistory {
+      grid-row: navbarhistory-s/navbarhistory-e;
+      grid-column: 1/-1;
+      background-color: #333;
+      box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+}

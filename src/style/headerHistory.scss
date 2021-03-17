@@ -1,0 +1,19 @@
+.headerhistory {
+      grid-row: headerhistory-s/headerhistory-e;
+      grid-column: 1/-1;
+      display: grid;
+      justify-items: end;
+      align-items: center;
+      grid-template-rows: 1fr;
+      //grid-template-columns: [links-s links-e];
+
+      &__links {
+            grid-column: links-s/links-e;
+            grid-row: 1/-1;
+            
+      }
+}
+h1 {
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+}

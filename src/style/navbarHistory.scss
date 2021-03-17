@@ -1,0 +1,30 @@
+.row {
+      display: flex;
+      justify-content: space-between;
+} 
+.block {
+      background-color: #ececec;
+      padding: 1rem;
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+}
+.row.center {
+      align-items: center;
+}
+h1 {
+      font-size: 1.5rem;
+}
+a {
+      text-decoration: none;
+}
+
+// &__links {
+//       grid-column: links-s/links-e;
+//       grid-row: 1/-1;
+// }
+// .navbarhistory {
+//       grid-row: navbarhistory-s/navbarhistory-e;
+//       grid-column: 1/-1;
+//       background-color: #333;
+//       box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+// }
